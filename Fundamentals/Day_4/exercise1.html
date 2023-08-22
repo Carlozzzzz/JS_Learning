@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Day3 Exercise</title>
+    <title>Day 4 Exercise</title>
 </head>
 <body>
     <a href="index.html" style="margin-right: 10px;">back</a>
@@ -38,13 +38,14 @@
         function searchWord(arr, searchName) {
             let isMatch;
             for (let i = 0; i < arr.length; i++) {
-                if(searchName === arr[i].toLowerCase()) {
+                if(searchName.toLowerCase() === arr[i].toLowerCase()) {
                     isMatch = true;
                     break;
                 } else {
                     isMatch = false;
                 }
-
+                console.log(isMatch);
+                
             }
             return isMatch;
         }
