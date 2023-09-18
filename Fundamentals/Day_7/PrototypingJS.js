@@ -88,7 +88,7 @@ function runDog() {
     dog.makeSound();
 
     console.log(dog.carlos);
-console.log(dog);
+    console.log(dog);
 }
 
 function runDragon() {
